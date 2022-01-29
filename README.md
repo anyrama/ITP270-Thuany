@@ -1,2 +1,2 @@
-# ITP27-Thuany
+# ITP270-Thuany
 All the codes of ITP270 spring 2022 will be  uploaded into this repository.
