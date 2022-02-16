@@ -1,0 +1,41 @@
+#sudo to root user
+sudo su - 
+
+#Add the Users to the server
+useradd tstark
+useradd cdanvers
+useradd dprince
+
+#Check the user list
+cat /etc/passwd
+
+#Create a new group named "superhero"
+grupoadd superhero
+
+#set "superhero" group as the user tstarks  as the primary group
+usermod -g superhero tstark
+
+#check if the last command worked
+id tstark
+
+#add "superhero" as a supplimentary group
+usermod -aG superhero tstark
+
+#locking the account
+usermod - L d prince
+
+#unlocking the account
+usermod -U dprince
+
+#unlocking if the password is not set
+usermod -p pass123 dprince
+
+
+
+
+
+
+
+
+
+
